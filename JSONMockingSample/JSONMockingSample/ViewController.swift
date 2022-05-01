@@ -8,18 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    var scheduleData: Schedule?
-    var personData: [PersonModel]?
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard let scheduleData = Schedule.sampleData else { return }
-        guard let personData = PersonModel.sampleData else { return }
-        
-        print("1️⃣", scheduleData)
-        print("2️⃣", personData)
+
+        print("1️⃣", Schedule.sampleData)
+        print("2️⃣", PersonModel.sampleData)
+        print("3️⃣", CommentList.sampleData)
         
 
         // MARK: - cf) Encode

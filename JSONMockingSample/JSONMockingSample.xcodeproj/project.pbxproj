@@ -18,6 +18,8 @@
 		BD6445EE281ECF12008E7EC0 /* MockParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6445ED281ECF12008E7EC0 /* MockParser.swift */; };
 		BD6445F2281ECF86008E7EC0 /* ScheduleMock.json in Resources */ = {isa = PBXBuildFile; fileRef = BD6445F1281ECF86008E7EC0 /* ScheduleMock.json */; };
 		BD6445F4281ECFB7008E7EC0 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6445F3281ECFB7008E7EC0 /* ScheduleModel.swift */; };
+		BD6445F8281EE912008E7EC0 /* CommentMock.json in Resources */ = {isa = PBXBuildFile; fileRef = BD6445F7281EE912008E7EC0 /* CommentMock.json */; };
+		BD6445FA281EEA17008E7EC0 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6445F9281EEA17008E7EC0 /* CommentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		BD6445ED281ECF12008E7EC0 /* MockParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockParser.swift; sourceTree = "<group>"; };
 		BD6445F1281ECF86008E7EC0 /* ScheduleMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ScheduleMock.json; sourceTree = "<group>"; };
 		BD6445F3281ECFB7008E7EC0 /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		BD6445F7281EE912008E7EC0 /* CommentMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CommentMock.json; sourceTree = "<group>"; };
+		BD6445F9281EEA17008E7EC0 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +85,9 @@
 		BD6445E8281ECE7B008E7EC0 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				BD6445ED281ECF12008E7EC0 /* MockParser.swift */,
 				BD6445E9281ECE88008E7EC0 /* PersonMock.json */,
 				BD6445F1281ECF86008E7EC0 /* ScheduleMock.json */,
+				BD6445F7281EE912008E7EC0 /* CommentMock.json */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -91,8 +95,10 @@
 		BD6445F5281ED11D008E7EC0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD6445ED281ECF12008E7EC0 /* MockParser.swift */,
 				BD6445EB281ECEDB008E7EC0 /* PersonModel.swift */,
 				BD6445F3281ECFB7008E7EC0 /* ScheduleModel.swift */,
+				BD6445F9281EEA17008E7EC0 /* CommentModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6445F8281EE912008E7EC0 /* CommentMock.json in Resources */,
 				BD6445E1281ECE5F008E7EC0 /* LaunchScreen.storyboard in Resources */,
 				BD6445DE281ECE5F008E7EC0 /* Assets.xcassets in Resources */,
 				BD6445EA281ECE88008E7EC0 /* PersonMock.json in Resources */,
@@ -183,6 +190,7 @@
 				BD6445EC281ECEDB008E7EC0 /* PersonModel.swift in Sources */,
 				BD6445D9281ECE5E008E7EC0 /* ViewController.swift in Sources */,
 				BD6445D5281ECE5E008E7EC0 /* AppDelegate.swift in Sources */,
+				BD6445FA281EEA17008E7EC0 /* CommentModel.swift in Sources */,
 				BD6445EE281ECF12008E7EC0 /* MockParser.swift in Sources */,
 				BD6445D7281ECE5E008E7EC0 /* SceneDelegate.swift in Sources */,
 			);
