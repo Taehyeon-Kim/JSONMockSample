@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Jake",
+        "address_info": {
+            "contry": "한국",
+            "city": "서울"
+        },
+        "image": "01"
+
+    },
+    {
+        "name": "Bob",
+        "address_info": {
+            "contry": "한국",
+            "city": "인천"
+        },
+        "image": "02"
+    }
+]

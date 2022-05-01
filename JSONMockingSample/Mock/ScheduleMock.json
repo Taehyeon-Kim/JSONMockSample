@@ -1,0 +1,16 @@
+{
+    "periods": {
+        "2018-06-07": [
+          {
+            "firstName": "Test1",
+            "lastName": "Test1"
+          }
+        ],
+        "2018-06-06": [
+          {
+            "firstName": "Test1",
+            "lastName": "Test1"
+          }
+        ]
+    }
+}
