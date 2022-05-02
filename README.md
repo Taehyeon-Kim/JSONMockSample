@@ -75,9 +75,6 @@ extension PersonModel {
 import UIKit
 
 class ViewController: UIViewController {
-    
-    var scheduleData: Schedule?
-    var personData: [PersonModel]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
